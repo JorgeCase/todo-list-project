@@ -1,4 +1,4 @@
-function addTask() {
+function addElement() {
   const inputTask = document.querySelector('#texto-tarefa').value;
   let list = document.querySelector('#lista-tarefas').innerHTML;
   list += `<li>${inputTask}</li>`;
@@ -89,7 +89,7 @@ function moveUP() {
 function moveDown() {
   const buttonUp = document.querySelector('#mover-baixo');
   buttonUp.addEventListener('click', () => {
-    const classLiSelected = document.querySelector('.Spotlight');
+    const classLiSelected = document.querySelector('.itemSelected');
     if (classLiSelected == null) return;
     if (classLiSelected.nextElementSibling) {
       classLiSelected.nextElementSibling.insertAdjacentElement('afterend', classLiSelected);
@@ -100,7 +100,7 @@ function moveDown() {
 function removeSelected() {
   const buttonRemove = document.querySelector('#remover-selecionado');
   buttonRemove.addEventListener('click', () => {
-    const classLiSelected = document.querySelector('.Spotlight');
+    const classLiSelected = document.querySelector('.itemSelected');
     if (classLiSelected == null) return;
     if (classLiSelected !== null) {
       classLiSelected.parentNode.removeChild(classLiSelected);
