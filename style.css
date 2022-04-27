@@ -1,6 +1,52 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
+body {
+  max-width: 80%;
+  width: 100%;
+  margin: 40px auto;
+  color: rgb(93, 96, 99);
+  background-color: rgb(234, 237, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+header {
+  font-size: 25px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#criar-tarefa {
+  font-size: 15px;
+  padding: 5px;
+}
+
+#funcionamento {
+  font-size: 15px;
+  padding: 5px;
+}
+
+#label {
+  display: block;
+}
+
+.itemSelected {
+  background-color: gray;
+  padding: 5px;
+  margin-right: 300px;
+}
+
+#texto-tarefa {
+  font-size: 15px;
+  padding: 5px;
+}
+
+.completed{
+  text-decoration: line-through solid black;
+} 
