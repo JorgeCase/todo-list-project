@@ -12,7 +12,7 @@
   <h2 align="center">📁 Acesso à aplicação</h2>
   <div align="center">
     <p align="center">Você pode utilizar a aplicação clicando no link abaixo.</p>
-    <a href='https://jorge-case-pixels-art.netlify.app/'>Clique aqui para utilizar</a>
+    <a href='https://jorge-case-project-todo-list.netlify.app/'>Clique aqui para utilizar</a>
   </div>
   <h4 align="center">Este projeto é um dos requisitos para a formação de Desenvolvimento Web da Trybe</h4>
   <p>O projeto finaliza a <b>Seção 4 - JavaScript, DOM, Eventos e Web Storage</b> do Módulo de Fundamentos e foi sugerido como um projeto bônus com <b>onze</b> requisitos obrigatórios e <b>três</b> requisitos optativos. Neste projeto obtive <b>100% de aprovação</b>.</p>
